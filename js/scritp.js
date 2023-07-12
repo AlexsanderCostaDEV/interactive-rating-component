@@ -17,5 +17,5 @@ var links = document.querySelectorAll('.change');
     }
 
 function redirect() {
-    window.location.href = 'https://www.google.com';
+    window.location.href = './thank-you.html';
 }
