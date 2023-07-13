@@ -30,7 +30,7 @@ html, body {
     background-color: var(--very-dark-blue);
 }
 
-.card {
+.card2 {
     width: 412px;
     height: 417px;
     background-color: var(--dark-blue);
@@ -43,11 +43,11 @@ html, body {
     justify-content: start;
 }
 
-.card .cell {
+.card2 .cell {
     margin-top: 17px;
 }
 
-.card .selection {
+.card2 .selection {
     padding: 7px 15px 7px 15px;
     border-radius: 20px;
     background-color: hsl(213, 19%, 25%);
@@ -55,13 +55,13 @@ html, body {
     margin-top: 24px;
 }
 
-.card h2 {
+.card2 h2 {
     margin-top: 35px;
     color: var(--white);
     font-size: 28px;
 }
 
-.card .description {
+.card2 .description2 {
     color: var(--light-grey);
     font-size: 15px;
     margin-top: 9px;
