@@ -114,7 +114,7 @@ html, body {
 
   /* card2 */
 
-  .card2 {
+.card2 {
     width: 412px;
     height: 417px;
     background-color: var(--dark-blue);
@@ -155,4 +155,16 @@ html, body {
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 375px) {
+
+    .card, .card2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .card2 .description2 br{
+        display: none;
+    }
 }
